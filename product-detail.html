@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail - ShopEase</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./main.css">
+    <meta name="description" content="ShopEase - Your favorite online store for the best deals and products.">
+    <meta name="keywords" content="online store, shopping, deals, products">
+    <meta name="author" content="ShopEase">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>ShopEase</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="product-detail">
+            <div class="product">
+                <img src="Hình/20230619_g56PqYH9vP.jpeg" alt="Giày">
+                <h2>Giày</h2>
+                <p>$50.00</p>
+                <p>Giày là một vật dụng đi vào bàn chân con người để bảo vệ và làm êm chân trong khi thực hiện các hoạt động khác nhau.</p>
+                <button onclick="addToCart('Giày', 50.00)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="Hình/20571729-8b13-4f5d-a61e-c50bf4cb7de3.webp" alt="Áo">
+                <h2>Áo</h2>
+                <p>$20.00</p>
+                <p>Áo là phần trang phục được mặc ở phần trên của cơ thể.</p>
+                <button onclick="addToCart('Áo', 20.00)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="Hình/Túi-xách-da-nữ-handmade-Velisa-560-3.jpeg" alt="Túi Xách">
+                <h3>Túi Xách</h3>
+                <p>$45.00</p>
+                <p>Túi xách là vật giúp bạn mang được nhiều vật dụng cần thiết do đó các thiết kế trong túi xách rất thông minh và cực kì tiện dụng.</p>
+                <button onclick="addToCart('Túi Xách', 45.00)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="Hình/Mat-day-chuyen-bac-nu-dinh-kim-cuong-Moissanite-tron-cach-dieu-LILI_413898_6.jpeg" alt="Trang sức">
+                <h2>Trang sức</h2>
+                <p>$80.00</p>
+                <p>Trang sức (hay còn gọi là nữ trang), là những đồ dùng trang trí cá nhân, ví dụ như: vòng cổ, nhẫn, vòng đeo tay, khuyên, thường được làm từ đá quý, kim loại ...</p>
+                <button onclick="addToCart('Trang sức', 80.00)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="Hình/Quan-Baggy-Jean-nam-nu-2b-1-Quan-ong-rong-xanh-classic-ZiZoou-Store.webp" alt="Quần">
+                <h2>Quần</h2>
+                <p>$40.00</p>
+                <p>Quần là một loại trang phục che phần thân dưới của con người. Quần có nhiều kiểu dáng và chất liệu khác nhau, được sử dụng cho nhiều mục đích và trong nhiều ...</p>
+                <button onclick="addToCart('Quần', 40.00)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="Hình/nhẫn.webp" alt="Nhẫn">
+                <h3>Nhẫn</h3>
+                <p>$90.00</p>
+                <p>Nhẫn là một vòng tròn nhỏ, thường làm bằng kim loại, được đeo ở ngón tay như một vật phẩm trang sức, thỉnh thoảng là ngón chân. Một cặp nhẫn cưới.</p>
+                <button onclick="addToCart('Nhẫn', 90.00)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="Hình/dothethao.jpeg" alt="Đồ thể thao">
+                <h2>Đồ thể thao</h2>
+                <p>$25.00</p>
+                <p>Quần áo thể thao là một phần quan trọng trong cuộc sống của nhiều người. Nó giúp chúng ta tập luyện hiệu quả hơn, thoải mái hơn và tự tin hơn.</p>
+                <button onclick="addToCart('Đồ thể thao', 25.00)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="Hình/dongho.jpeg" alt="Đồng hồ">
+                <h2>Đồng hồ</h2>
+                <p>$100.00</p>
+                <p>Đồng hồ là một dụng cụ thường dùng để đo khoảng thời gian dưới một ngày; khác với lịch, là một dụng cụ đo thời gian một ngày trở lên.</p>
+                <button onclick="addToCart('Đồng hồ', 100.00)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="Hình/balo.jpeg" alt="Balo">
+                <h2>Balo</h2>
+                <p>$30.00</p>
+                <p>Balo là một loại hành lý có quai đeo trên lưng, có thể dùng để chứa vật dụng cá nhân, quần áo,...</p>
+                <button onclick="addToCart('Balo', 30.00)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="Hình/mayanh2.jpeg" alt="Máy ảnh">
+                <h2>Máy ảnh</h2>
+                <p>$120.00</p>
+                <p>Máy ảnh hay máy chụp hình là một dụng cụ dùng để thu ảnh thành một ảnh tĩnh hay thành một loạt các ảnh chuyển động.</p>
+                <button onclick="addToCart('Máy ảnh', 120.00)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="Hình/aokhoac.webp" alt="Áo khoác">
+                <h2>Áo khoác</h2>
+                <p>$60.00</p>
+                <p>Áo khoác là loại áo mặc bên ngoài của tất cả các loại áo khác với mục đích giữ ấm hoặc làm đẹp hoặc cả hai.</p>
+                <button onclick="addToCart('Áo khoác', 60.00)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="Hình/vongtay.jpeg" alt="Vòng tay">
+                <h2>Vòng tay</h2>
+                <p>$70.00</p>
+                <p>Vòng tay là một loại trang sức được đeo quanh cổ tay, thường là vòng tròn hoặc hình elip, làm bằng kim loại, gỗ, đá quý, ngọc, nhựa,...</p>
+                <button onclick="addToCart('Vòng tay', 70.00)">Add to Cart</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 ShopEase. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

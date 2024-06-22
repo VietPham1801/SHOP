@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ff6600;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    margin: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+section#home .intro {
+    text-align: center;
+}
+
+.product-preview, .product-list {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1em;
+    text-align: center;
+    width: 200px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #ff6600;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 500px;
+    margin: auto;
+}
+
+#contact label {
+    font-weight: bold;
+}
+
+#contact input, #contact textarea {
+    padding: 0.5em;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+p>img{  width: 18%;
+    height: 285px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 14px;
+    background-color: #8c8c8c;
+    box-shadow: 8px 8px 10px #d5d5d5; }
+
+p>img:hover{ box-shadow: 10px 10px 12px #333333;
+         background-color: #333; }
+/* styles.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ff5722;
+}
+
+.navbar h1 {
+    margin: 0;
+    color: white;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.icon-shopee {
+    width: 40px;
+    height: 40px;
+    background-image: url('https://cdn.iconscout.com/icon/free/png-256/shopee-2295948-1912014.png'); /* URL của icon Shopee */
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+.icon-facebook {
+    background-image: url('https://cdn.iconscout.com/icon/free/png-256/facebook-224-498412.png');
+}
+
+.icon-youtube {
+    background-image: url('https://cdn.iconscout.com/icon/free/png-256/youtube-43-569295.png');
+}
+
+.icon-google {
+    background-image: url('https://cdn.iconscout.com/icon/free/png-256/google-2981831-2476479.png');
+}
+
+
+
